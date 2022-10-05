@@ -15,4 +15,4 @@ try:
 </html>""")
     file.close()
 except:
-    print('A file with name \'index.html\' already exists in this directory.')
+    print(f'A file with name \'{name}.html\' already exists in this directory.')
